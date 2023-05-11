@@ -76,7 +76,7 @@ function setUserActiveInRoom() {
   const unsubscribe = watch(
     () => room.value,
     async (room) => {
-      const isUserAlreadyInRoom: boolean = room?.activeUsers.includes(value?.uid)
+      const isUserAlreadyInRoom: boolean = room?.activeUsers?.includes(value?.uid)
       if (isUserAlreadyInRoom) {
         return
       }
