@@ -19,7 +19,7 @@ export default defineComponent({
   <button
     v-bind="$attrs"
     :class="[
-      'rounded-md bg-amber-500 text-sm font-semibold text-white shadow-sm hover:bg-amber-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-500',
+      'rounded-md bg-amber-500 text-sm font-semibold shadow-sm hover:bg-amber-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-500 ',
       $attrs.class
     ]"
   >
